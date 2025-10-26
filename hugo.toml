@@ -1,0 +1,98 @@
+baseURL = 'https://ssoonan.com/'
+title = "Ssoonan's Tech Blog"
+theme = 'hugo-coder'
+defaultContentLanguage = 'en'
+
+[pagination]
+  pagerSize = 20
+
+[params]
+  author = "Your Name"
+  description = "Ssoonan's Tech Blog"
+  keywords = "blog,developer,personal,technology"
+  info = ["Full Stack Developer", "Tech Enthusiast"]
+  avatarURL = "images/avatar.jpg"
+  dateFormat = "January 2, 2006"
+  since = 2025
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# English language configuration
+[languages.en]
+  languageName = "English"
+  title = "Ssoonan's Tech Blog"
+  weight = 1
+
+  [languages.en.params]
+    author = "Ssoonan"
+    info = ["Full Stack Developer", "Tech Enthusiast"]
+    description = "Ssoonan's Tech Blog - Articles, Thoughts, Projects"
+
+  [[languages.en.menu.main]]
+    name = "Articles"
+    weight = 1
+    url = "articles/"
+
+  [[languages.en.menu.main]]
+    name = "Thoughts"
+    weight = 2
+    url = "thoughts/"
+
+  [[languages.en.menu.main]]
+    name = "Projects"
+    weight = 3
+    url = "projects/"
+
+  [[languages.en.menu.main]]
+    name = "About"
+    weight = 4
+    url = "/"
+
+# Korean language configuration
+[languages.ko]
+  languageName = "한국어"
+  title = "기술 블로그"
+  weight = 2
+
+  [languages.ko.params]
+    author = "옥순환"
+    info = ["풀스택 개발자", "기술 애호가"]
+    description = "기술 블로그 - 글, 생각, 프로젝트"
+
+  [[languages.ko.menu.main]]
+    name = "글"
+    weight = 1
+    url = "ko/articles/"
+
+  [[languages.ko.menu.main]]
+    name = "생각"
+    weight = 2
+    url = "ko/thoughts/"
+
+  [[languages.ko.menu.main]]
+    name = "프로젝트"
+    weight = 3
+    url = "ko/projects/"
+
+  [[languages.ko.menu.main]]
+    name = "소개"
+    weight = 4
+    url = "/ko/"
+
+# Redirect root to articles
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+# Syntax highlighting
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
+    lineNumbersInTable = true

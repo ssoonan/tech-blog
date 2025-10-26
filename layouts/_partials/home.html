@@ -1,0 +1,8 @@
+<section class="container centered">
+  {{ $aboutPage := .Site.GetPage "/about" }}
+  {{ if $aboutPage }}
+    <article class="markdown">
+      {{ $aboutPage.Content }}
+    </article>
+  {{ end }}
+</section>
