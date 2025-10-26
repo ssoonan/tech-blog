@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>커리어 on 기술 블로그</title>
+    <link>http://localhost:1313/ko/tags/%EC%BB%A4%EB%A6%AC%EC%96%B4/</link>
+    <description>Recent content in 커리어 on 기술 블로그</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/ko/tags/%EC%BB%A4%EB%A6%AC%EC%96%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>소프트웨어 개발에 대한 생각</title>
+      <link>http://localhost:1313/ko/thoughts/my-first-thought/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ko/thoughts/my-first-thought/</guid>
+      <description>&lt;h1 id=&#34;소프트웨어-개발에-대한-생각&#34;&gt;&#xA;  소프트웨어 개발에 대한 생각&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4-%ea%b0%9c%eb%b0%9c%ec%97%90-%eb%8c%80%ed%95%9c-%ec%83%9d%ea%b0%81&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;소프트웨어 개발은 끊임없이 진화하고 있으며, 적응력을 유지하고 계속 배우는 것이 중요합니다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;지속적인-학습&#34;&gt;&#xA;  지속적인 학습&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%ec%a7%80%ec%86%8d%ec%a0%81%ec%9d%b8-%ed%95%99%ec%8a%b5&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;기술 산업은 빠르게 움직입니다. 제가 최신 정보를 유지하는 방법은 다음과 같습니다:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;기술 블로그 읽기&lt;/li&gt;&#xA;&lt;li&gt;오픈 소스에 기여하기&lt;/li&gt;&#xA;&lt;li&gt;사이드 프로젝트 만들기&lt;/li&gt;&#xA;&lt;li&gt;컨퍼런스와 밋업 참석하기&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;일과-삶의-균형&#34;&gt;&#xA;  일과 삶의 균형&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%ec%9d%bc%ea%b3%bc-%ec%82%b6%ec%9d%98-%ea%b7%a0%ed%98%95&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;빠르게 변화하는 산업에서도 건강한 일과 삶의 균형을 유지하는 것이 중요합니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
