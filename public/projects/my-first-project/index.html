@@ -1,15 +1,305 @@
-<!doctype html><html lang=en><head><title>Personal Blog Project · Ssoonan's Tech Blog</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=color-scheme content="light dark"><meta name=author content="Ssoonan"><meta name=description content="Building a personal blog with Hugo"><meta name=keywords content="blog,developer,personal,technology"><meta name=twitter:card content="summary"><meta name=twitter:title content="Personal Blog Project"><meta name=twitter:description content="Building a personal blog with Hugo"><meta property="og:url" content="https://ssoonan.com/projects/my-first-project/"><meta property="og:site_name" content="Ssoonan's Tech Blog"><meta property="og:title" content="Personal Blog Project"><meta property="og:description" content="Building a personal blog with Hugo"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="projects"><meta property="article:published_time" content="2025-01-10T00:00:00+00:00"><meta property="article:modified_time" content="2025-01-10T00:00:00+00:00"><meta property="article:tag" content="Hugo"><meta property="article:tag" content="Web-Development"><meta property="article:tag" content="Static-Site"><link rel=canonical href=https://ssoonan.com/projects/my-first-project/><link rel=preload href=/fonts/fa-brands-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/fa-regular-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/fa-solid-900.woff2 as=font type=font/woff2 crossorigin><link rel=stylesheet href=/css/coder.min.4b392a85107b91dbdabc528edf014a6ab1a30cd44cafcd5325c8efe796794fca.css integrity="sha256-SzkqhRB7kdvavFKO3wFKarGjDNRMr81TJcjv55Z5T8o=" crossorigin=anonymous media=screen><link rel=stylesheet href=/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin=anonymous media=screen><link rel=icon type=image/svg+xml href=/images/favicon.svg sizes=any><link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=mask-icon href=/images/safari-pinned-tab.svg color=#5bbad5></head><body class="preload-transitions colorscheme-auto"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa-solid fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=https://ssoonan.com/>Ssoonan's Tech Blog
-</a><input type=checkbox id=menu-toggle>
-<label class="menu-button float-right" for=menu-toggle><i class="fa-solid fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=/articles/>Articles</a></li><li class=navigation-item><a class=navigation-link href=/thoughts/>Thoughts</a></li><li class=navigation-item><a class=navigation-link href=/projects/>Projects</a></li><li class=navigation-item><a class=navigation-link href=/>About</a></li><li class="navigation-item menu-separator"><span>|</span></li><li class=navigation-item><a href=/ko/projects/my-first-project/>한국어</a></li></ul></section></nav><div class=content><section class="container page"><article><header><h1 class=title><a class=title-link href=https://ssoonan.com/projects/my-first-project/>Personal Blog Project</a></h1></header><p>This project showcases the creation of a personal tech blog using Hugo and the hugo-coder theme.</p><h2 id=overview>Overview
-<a class=heading-link href=#overview><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
-<span class=sr-only>Link to heading</span></a></h2><ul><li><strong>Tech Stack</strong>: Hugo, Markdown, HTML/CSS</li><li><strong>Theme</strong>: hugo-coder</li><li><strong>Deployment</strong>: GitHub Pages / Netlify</li><li><strong>Repository</strong>: [GitHub Link]</li></ul><h2 id=features>Features
-<a class=heading-link href=#features><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
-<span class=sr-only>Link to heading</span></a></h2><ul><li>Fast static site generation</li><li>Responsive design</li><li>Syntax highlighting for code</li><li>Multi-language support</li><li>SEO optimized</li></ul><h2 id=learnings>Learnings
-<a class=heading-link href=#learnings><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
-<span class=sr-only>Link to heading</span></a></h2><p>Building this blog taught me:</p><ul><li>Static site generation principles</li><li>Hugo templating system</li><li>Content management with Markdown</li><li>Deployment workflows</li></ul><h2 id=future-improvements>Future Improvements
-<a class=heading-link href=#future-improvements><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
-<span class=sr-only>Link to heading</span></a></h2><ul><li>Add search functionality</li><li>Implement comments system</li><li>Integrate analytics</li><li>Add newsletter subscription</li></ul><p>Check out the <a href=#>GitHub repository</a> for more details!</p></article></section></div><footer class=footer><section class=container>©
-2025
-Ssoonan
-·
-Powered by <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/ target=_blank rel=noopener>Coder</a>.</section></footer></main><script src=/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Personal Blog Project · Ssoonan&#39;s Tech Blog
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Ssoonan">
+<meta name="description" content="Building a personal blog with Hugo">
+<meta name="keywords" content="blog,developer,personal,technology">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Personal Blog Project">
+  <meta name="twitter:description" content="Building a personal blog with Hugo">
+
+<meta property="og:url" content="http://localhost:1313/projects/my-first-project/">
+  <meta property="og:site_name" content="Ssoonan&#39;s Tech Blog">
+  <meta property="og:title" content="Personal Blog Project">
+  <meta property="og:description" content="Building a personal blog with Hugo">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2025-01-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-10T00:00:00+00:00">
+    <meta property="article:tag" content="Hugo">
+    <meta property="article:tag" content="Web-Development">
+    <meta property="article:tag" content="Static-Site">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/my-first-project/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Ssoonan&#39;s Tech Blog
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/articles/">Articles</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/thoughts/">Thoughts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/">About</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="/ko/projects/my-first-project/">한국어</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/my-first-project/">
+          Personal Blog Project
+        </a>
+      </h1>
+    </header>
+
+    <h1 id="personal-blog-project">
+  Personal Blog Project
+  <a class="heading-link" href="#personal-blog-project">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>This project showcases the creation of a personal tech blog using Hugo and the hugo-coder theme.</p>
+<h2 id="overview">
+  Overview
+  <a class="heading-link" href="#overview">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li><strong>Tech Stack</strong>: Hugo, Markdown, HTML/CSS</li>
+<li><strong>Theme</strong>: hugo-coder</li>
+<li><strong>Deployment</strong>: GitHub Pages / Netlify</li>
+<li><strong>Repository</strong>: [GitHub Link]</li>
+</ul>
+<h2 id="features">
+  Features
+  <a class="heading-link" href="#features">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li>Fast static site generation</li>
+<li>Responsive design</li>
+<li>Syntax highlighting for code</li>
+<li>Multi-language support</li>
+<li>SEO optimized</li>
+</ul>
+<h2 id="learnings">
+  Learnings
+  <a class="heading-link" href="#learnings">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Building this blog taught me:</p>
+<ul>
+<li>Static site generation principles</li>
+<li>Hugo templating system</li>
+<li>Content management with Markdown</li>
+<li>Deployment workflows</li>
+</ul>
+<h2 id="future-improvements">
+  Future Improvements
+  <a class="heading-link" href="#future-improvements">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li>Add search functionality</li>
+<li>Implement comments system</li>
+<li>Integrate analytics</li>
+<li>Add newsletter subscription</li>
+</ul>
+<p>Check out the <a href="#" >GitHub repository</a> for more details!</p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2025
+     Ssoonan 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

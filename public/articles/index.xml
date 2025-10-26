@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles on Ssoonan's Tech Blog</title><link>https://ssoonan.com/articles/</link><description>Recent content in Articles on Ssoonan's Tech Blog</description><generator>Hugo</generator><language>en</language><atom:link href="https://ssoonan.com/articles/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Ssoonan&#39;s Tech Blog</title>
+    <link>http://localhost:1313/articles/</link>
+    <description>Recent content in Articles on Ssoonan&#39;s Tech Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Technical Article</title>
+      <link>http://localhost:1313/articles/first-article/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/first-article/</guid>
+      <description>&lt;h1 id=&#34;my-first-technical-article&#34;&gt;&#xA;  My First Technical Article&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#my-first-technical-article&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to my first technical article! In this post, I&amp;rsquo;ll share some insights about technical writing and software development.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Technical writing is an essential skill for developers. It helps you:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Document your code&lt;/li&gt;&#xA;&lt;li&gt;Share knowledge with the community&lt;/li&gt;&#xA;&lt;li&gt;Improve your understanding of concepts&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;getting-started&#34;&gt;&#xA;  Getting Started&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#getting-started&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a simple code example:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
