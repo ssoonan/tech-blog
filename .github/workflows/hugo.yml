@@ -41,13 +41,6 @@ jobs:
         run: sudo snap install dart-sass
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
-      - name: Update submodules
-        run: |
-          git submodule sync --recursive
-          git submodule update --init --recursive --force
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
