@@ -7,7 +7,6 @@ tags = ["OS", "Linux", "Kernel", "Device Driver", "Getting-Started"]
 categories = ["Technical"]
 +++
 
-## Understanding OS Abstraction and Complexity Through Linux Device Drivers
 
 ### The Hidden Side of Simplicity
 Before I dove deep into Operating Systems in graduate school, I experimented with Embedded Linux by controlling an LED on a Raspberry Pi. Even though fiddling with a breadboard was a bit tedious, the code itself was deceptively simple. One line of Python was all it took:
@@ -35,10 +34,10 @@ These requirements necessitate the split between Kernel Space and User Space. Ap
 We call this request a System Call. Much like a REST API in web development, the Kernel exposes an interface. When an application triggers a system call, the CPU switches to kernel mode, executes a predefined handler, and performs the hardware access safely.
 
 ![System Call Flow Diagram](https://linux-kernel-labs.github.io/refs/heads/master/_images/ditaa-48374873962ca32ada36c14ab9a83b60f112a1e0.png)
+
 *Figure 1: System Call Flow from User Space to Device Driver*
 
-> [!NOTE]
-While this flow varies by kernel type, I am assuming a Monolithic Kernel like Linux for this discussion.
+> While this flow varies by kernel type, I am assuming a Monolithic Kernel like Linux for this discussion.
 
 
 The Kernel itself doesn't inherently know how to talk to every SSD, GPU, or NPU. Hardware manufacturers must provide the "manual"—this is the **Device Driver**. To keep things standardized, Linux exposes these drivers through the file system.
@@ -100,7 +99,7 @@ echo "0" | sudo tee /dev/led
 
 Through this shell script, we can observe the LED turning on or blinking.
 
-![LED Toggle Output](../../static/images/output.gif)
+![LED Toggle Output](/images/output.gif)
 
 ---
 ### The Complexity of the Asynchronous World: Interrupts
