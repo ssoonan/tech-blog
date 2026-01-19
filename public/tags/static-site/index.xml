@@ -1,36 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Static-Site on Ssoonan's Tech Blog</title><link>https://ssoonan.com/tags/static-site/</link><description>Recent content in Static-Site on Ssoonan's Tech Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ssoonan.com/tags/static-site/index.xml" rel="self" type="application/rss+xml"/><item><title>Personal Blog Project</title><link>https://ssoonan.com/projects/my-first-project/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://ssoonan.com/projects/my-first-project/</guid><description>&lt;p&gt;This project showcases the creation of a personal tech blog using Hugo and the hugo-coder theme.&lt;/p&gt;
-&lt;h2 id="overview"&gt;
- Overview
- &lt;a class="heading-link" href="#overview"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;: Hugo, Markdown, HTML/CSS&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Theme&lt;/strong&gt;: hugo-coder&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: GitHub Pages / Netlify&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Repository&lt;/strong&gt;: [GitHub Link]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="features"&gt;
- Features
- &lt;a class="heading-link" href="#features"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Fast static site generation&lt;/li&gt;
-&lt;li&gt;Responsive design&lt;/li&gt;
-&lt;li&gt;Syntax highlighting for code&lt;/li&gt;
-&lt;li&gt;Multi-language support&lt;/li&gt;
-&lt;li&gt;SEO optimized&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="learnings"&gt;
- Learnings
- &lt;a class="heading-link" href="#learnings"&gt;
- &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
- &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
- &lt;/a&gt;
-&lt;/h2&gt;
-&lt;p&gt;Building this blog taught me:&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Static-Site on Ssoonan&#39;s Tech Blog</title>
+    <link>https://ssoonan.com/tags/static-site/</link>
+    <description>Recent content in Static-Site on Ssoonan&#39;s Tech Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ssoonan.com/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Blog Project</title>
+      <link>https://ssoonan.com/projects/my-first-project/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/projects/my-first-project/</guid>
+      <description>&lt;h1 id=&#34;personal-blog-project&#34;&gt;&#xA;  Personal Blog Project&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#personal-blog-project&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This project showcases the creation of a personal tech blog using Hugo and the hugo-coder theme.&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;&#xA;  Overview&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#overview&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;: Hugo, Markdown, HTML/CSS&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Theme&lt;/strong&gt;: hugo-coder&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: GitHub Pages / Netlify&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Repository&lt;/strong&gt;: [GitHub Link]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;&#xA;  Features&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#features&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fast static site generation&lt;/li&gt;&#xA;&lt;li&gt;Responsive design&lt;/li&gt;&#xA;&lt;li&gt;Syntax highlighting for code&lt;/li&gt;&#xA;&lt;li&gt;Multi-language support&lt;/li&gt;&#xA;&lt;li&gt;SEO optimized&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;learnings&#34;&gt;&#xA;  Learnings&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#learnings&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Building this blog taught me:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

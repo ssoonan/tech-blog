@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ssoonan&#39;s Tech Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://ssoonan.com/</link>
     <description>Recent content on Ssoonan&#39;s Tech Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ssoonan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Cost of Simplicity: Understanding OS Abstraction through Device Drivers</title>
+      <link>https://ssoonan.com/articles/first-article/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/articles/first-article/</guid>
+      <description>&lt;h2 id=&#34;understanding-os-abstraction-and-complexity-through-linux-device-drivers&#34;&gt;&#xA;  Understanding OS Abstraction and Complexity Through Linux Device Drivers&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#understanding-os-abstraction-and-complexity-through-linux-device-drivers&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;the-hidden-side-of-simplicity&#34;&gt;&#xA;  The Hidden Side of Simplicity&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#the-hidden-side-of-simplicity&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Before I dove deep into Operating Systems in graduate school, I experimented with Embedded Linux by controlling an LED on a Raspberry Pi. Even though fiddling with a breadboard was a bit tedious, the code itself was deceptively simple. One line of Python was all it took:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://ssoonan.com/about/</link>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://ssoonan.com/about/</guid>
       <description>&lt;p&gt;I work at the intersection of cloud-native technologies and real-time embedded systems. My research focuses on bringing container orchestration to safety-critical edge environments where traditional cloud assumptions about infinite resources and acceptable latency no longer hold&lt;/p&gt;&#xA;&lt;p&gt;My perspective comes from working across the stack, from scaling backend systems in production to implementing kernel-level scheduling policies. This cross-layer experience revealed a fundamental tension: cloud-native tools are designed for flexibility and developer productivity, while embedded systems demand predictability and resource efficiency. I believe the future of edge computing requires rethinking both sides of this equation&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thoughts on Software Development</title>
-      <link>http://localhost:1313/thoughts/my-first-thought/</link>
+      <link>https://ssoonan.com/thoughts/my-first-thought/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/thoughts/my-first-thought/</guid>
+      <guid>https://ssoonan.com/thoughts/my-first-thought/</guid>
       <description>&lt;h1 id=&#34;thoughts-on-software-development&#34;&gt;&#xA;  Thoughts on Software Development&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#thoughts-on-software-development&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Software development is constantly evolving, and it&amp;rsquo;s important to stay adaptable and keep learning.&lt;/p&gt;&#xA;&lt;h2 id=&#34;continuous-learning&#34;&gt;&#xA;  Continuous Learning&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#continuous-learning&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The tech industry moves fast. Here are some ways I stay up-to-date:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reading technical blogs&lt;/li&gt;&#xA;&lt;li&gt;Contributing to open source&lt;/li&gt;&#xA;&lt;li&gt;Building side projects&lt;/li&gt;&#xA;&lt;li&gt;Attending conferences and meetups&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;work-life-balance&#34;&gt;&#xA;  Work-Life Balance&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#work-life-balance&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s crucial to maintain a healthy work-life balance, even in a fast-paced industry.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>My First Technical Article</title>
-      <link>http://localhost:1313/articles/first-article/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/first-article/</guid>
-      <description>&lt;h1 id=&#34;my-first-technical-article&#34;&gt;&#xA;  My First Technical Article&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#my-first-technical-article&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to my first technical article! In this post, I&amp;rsquo;ll share some insights about technical writing and software development.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Technical writing is an essential skill for developers. It helps you:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Document your code&lt;/li&gt;&#xA;&lt;li&gt;Share knowledge with the community&lt;/li&gt;&#xA;&lt;li&gt;Improve your understanding of concepts&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;getting-started&#34;&gt;&#xA;  Getting Started&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#getting-started&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a simple code example:&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Personal Blog Project</title>
-      <link>http://localhost:1313/projects/my-first-project/</link>
+      <link>https://ssoonan.com/projects/my-first-project/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/my-first-project/</guid>
+      <guid>https://ssoonan.com/projects/my-first-project/</guid>
       <description>&lt;h1 id=&#34;personal-blog-project&#34;&gt;&#xA;  Personal Blog Project&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#personal-blog-project&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This project showcases the creation of a personal tech blog using Hugo and the hugo-coder theme.&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;&#xA;  Overview&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#overview&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;: Hugo, Markdown, HTML/CSS&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Theme&lt;/strong&gt;: hugo-coder&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: GitHub Pages / Netlify&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Repository&lt;/strong&gt;: [GitHub Link]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;&#xA;  Features&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#features&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fast static site generation&lt;/li&gt;&#xA;&lt;li&gt;Responsive design&lt;/li&gt;&#xA;&lt;li&gt;Syntax highlighting for code&lt;/li&gt;&#xA;&lt;li&gt;Multi-language support&lt;/li&gt;&#xA;&lt;li&gt;SEO optimized&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;learnings&#34;&gt;&#xA;  Learnings&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#learnings&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Building this blog taught me:&lt;/p&gt;</description>
     </item>
   </channel>

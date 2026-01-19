@@ -1,10 +1,10 @@
 +++
-title: "The Cost of Simplicity: Understanding OS Abstraction through Device Drivers" 
-date: "2026-01-19"
-author: "Ssoonan"
-description: "Exploring the hidden complexity behind a simple LED control through Linux Device Drivers and why it matters in the era of K8s and NPUs." 
-tags: ["OS", "Linux", "Kernel", "Device Driver", "Getting-Started"] 
-categories: ["Technical"]
+title = "The Cost of Simplicity: Understanding OS Abstraction through Device Drivers" 
+date = "2026-01-19"
+author = "Ssoonan"
+description = "Exploring the hidden complexity behind a simple LED control through Linux Device Drivers and why it matters in the era of K8s and NPUs." 
+tags = ["OS", "Linux", "Kernel", "Device Driver", "Getting-Started"] 
+categories = ["Technical"]
 +++
 
 ## Understanding OS Abstraction and Complexity Through Linux Device Drivers

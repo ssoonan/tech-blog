@@ -1,1 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Ssoonan's Tech Blog</title><link>https://ssoonan.com/tags/</link><description>Recent content in Tags on Ssoonan's Tech Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ssoonan.com/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://ssoonan.com/tags/hugo/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://ssoonan.com/tags/hugo/</guid><description/></item><item><title>Static-Site</title><link>https://ssoonan.com/tags/static-site/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://ssoonan.com/tags/static-site/</guid><description/></item><item><title>Web-Development</title><link>https://ssoonan.com/tags/web-development/</link><pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate><guid>https://ssoonan.com/tags/web-development/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Ssoonan&#39;s Tech Blog</title>
+    <link>https://ssoonan.com/tags/</link>
+    <description>Recent content in Tags on Ssoonan&#39;s Tech Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ssoonan.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Device Driver</title>
+      <link>https://ssoonan.com/tags/device-driver/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/tags/device-driver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Getting-Started</title>
+      <link>https://ssoonan.com/tags/getting-started/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/tags/getting-started/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kernel</title>
+      <link>https://ssoonan.com/tags/kernel/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/tags/kernel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://ssoonan.com/tags/linux/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OS</title>
+      <link>https://ssoonan.com/tags/os/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/tags/os/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Career</title>
+      <link>https://ssoonan.com/tags/career/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opinion</title>
+      <link>https://ssoonan.com/tags/opinion/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/tags/opinion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://ssoonan.com/tags/hugo/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Static-Site</title>
+      <link>https://ssoonan.com/tags/static-site/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/tags/static-site/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Development</title>
+      <link>https://ssoonan.com/tags/web-development/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/tags/web-development/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
