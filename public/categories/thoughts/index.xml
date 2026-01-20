@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on Ssoonan&#39;s Tech Blog</title>
+    <link>https://ssoonan.com/categories/thoughts/</link>
+    <description>Recent content in Thoughts on Ssoonan&#39;s Tech Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ssoonan.com/categories/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thoughts on Software Development</title>
+      <link>https://ssoonan.com/thoughts/my-first-thought/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/thoughts/my-first-thought/</guid>
+      <description>&lt;h1 id=&#34;thoughts-on-software-development&#34;&gt;&#xA;  Thoughts on Software Development&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#thoughts-on-software-development&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Software development is constantly evolving, and it&amp;rsquo;s important to stay adaptable and keep learning.&lt;/p&gt;&#xA;&lt;h2 id=&#34;continuous-learning&#34;&gt;&#xA;  Continuous Learning&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#continuous-learning&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The tech industry moves fast. Here are some ways I stay up-to-date:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reading technical blogs&lt;/li&gt;&#xA;&lt;li&gt;Contributing to open source&lt;/li&gt;&#xA;&lt;li&gt;Building side projects&lt;/li&gt;&#xA;&lt;li&gt;Attending conferences and meetups&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;work-life-balance&#34;&gt;&#xA;  Work-Life Balance&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#work-life-balance&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;It&amp;rsquo;s crucial to maintain a healthy work-life balance, even in a fast-paced industry.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

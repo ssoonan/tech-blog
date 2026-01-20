@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 기술 블로그</title>
+    <link>https://ssoonan.com/ko/categories/</link>
+    <description>Recent content in Categories on 기술 블로그</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ssoonan.com/ko/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>생각</title>
+      <link>https://ssoonan.com/ko/categories/%EC%83%9D%EA%B0%81/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/ko/categories/%EC%83%9D%EA%B0%81/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>기술</title>
+      <link>https://ssoonan.com/ko/categories/%EA%B8%B0%EC%88%A0/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/ko/categories/%EA%B8%B0%EC%88%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>프로젝트</title>
+      <link>https://ssoonan.com/ko/categories/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/ko/categories/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

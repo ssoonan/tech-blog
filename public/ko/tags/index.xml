@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 기술 블로그</title>
+    <link>https://ssoonan.com/ko/tags/</link>
+    <description>Recent content in Tags on 기술 블로그</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ssoonan.com/ko/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>의견</title>
+      <link>https://ssoonan.com/ko/tags/%EC%9D%98%EA%B2%AC/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/ko/tags/%EC%9D%98%EA%B2%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>커리어</title>
+      <link>https://ssoonan.com/ko/tags/%EC%BB%A4%EB%A6%AC%EC%96%B4/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/ko/tags/%EC%BB%A4%EB%A6%AC%EC%96%B4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>시작하기</title>
+      <link>https://ssoonan.com/ko/tags/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/ko/tags/%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>튜토리얼</title>
+      <link>https://ssoonan.com/ko/tags/%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/ko/tags/%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://ssoonan.com/ko/tags/hugo/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/ko/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>웹-개발</title>
+      <link>https://ssoonan.com/ko/tags/%EC%9B%B9-%EA%B0%9C%EB%B0%9C/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/ko/tags/%EC%9B%B9-%EA%B0%9C%EB%B0%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>정적-사이트</title>
+      <link>https://ssoonan.com/ko/tags/%EC%A0%95%EC%A0%81-%EC%82%AC%EC%9D%B4%ED%8A%B8/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ssoonan.com/ko/tags/%EC%A0%95%EC%A0%81-%EC%82%AC%EC%9D%B4%ED%8A%B8/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
