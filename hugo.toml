@@ -7,10 +7,10 @@ defaultContentLanguage = 'en'
   pagerSize = 20
 
 [params]
-  author = "Your Name"
+  author = "Ssoonan"
   description = "Ssoonan's Tech Blog"
   keywords = "blog,developer,personal,technology"
-  info = ["Full Stack Developer", "Tech Enthusiast"]
+  info = ["Cloud-Native & Embedded Systems", "Real-Time Edge Computing"]
   avatarURL = "images/avatar.jpg"
   dateFormat = "January 2, 2006"
   since = 2025
@@ -31,7 +31,7 @@ defaultContentLanguage = 'en'
 
   [languages.en.params]
     author = "Ssoonan"
-    info = ["Full Stack Developer", "Tech Enthusiast"]
+    info = ["cloud native, real-time system", "Linux Kernel"]
     description = "Ssoonan's Tech Blog - Articles, Thoughts, Projects"
 
   [[languages.en.menu.main]]
@@ -57,13 +57,13 @@ defaultContentLanguage = 'en'
 # Korean language configuration
 [languages.ko]
   languageName = "한국어"
-  title = "기술 블로그"
+  title = "쑤난의 기술 블로그"
   weight = 2
 
   [languages.ko.params]
-    author = "옥순환"
-    info = ["풀스택 개발자", "기술 애호가"]
-    description = "기술 블로그 - 글, 생각, 프로젝트"
+    author = "쑤난"
+    info = ["cloud native, real-time system", "Linux Kernel"]
+    description = "쑤난의 기술 블로그 - 글, 생각, 프로젝트"
 
   [[languages.ko.menu.main]]
     name = "글"
