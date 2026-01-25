@@ -1,5 +1,5 @@
 +++
-title = "Linux Device Driver로 이해하는 OS의 추상화와 복잡성"
+title = "Device Driver로 이해하는 OS의 추상화와 복잡성"
 date = "2026-01-19"
 author = "Ssoonan"
 description = "간단한 LED 제어 뒤에 숨겨진 복잡성을 Linux Device Driver를 통해 탐구하고, 이것이 K8s와 NPU 시대에 왜 중요한지 알아봅니다."
@@ -113,16 +113,22 @@ LED 회로에 버튼을 추가하여 상태를 토글한다면, 인터럽트 핸
 ```C
 static irqreturn_t button_irq_handler(int irq, void *dev_id)
 {
-  spin_lock_irqsave(&led_lock, flags);
+  spin_lock(&led_lock);
   led_state = !led_state;
   gpio_set_value(LED_GPIO_PIN, led_state);
-  spin_unlock_irqrestore(&led_lock, flags);
+  spin_unlock(&led_lock);
 
   return IRQ_HANDLED;
 }
 ```
 
-`spin_lock_irqsave()`를 주목하세요. 락을 잡는 동안 인터럽트를 비활성화해야 합니다. 만약 프로세스가 이미 `led_lock`을 잡고 있는 동안 인터럽트가 발생하면, 핸들러는 락이 해제되기를 영원히 기다리게 되지만, 핸들러가 완료되어야 프로세스가 락을 해제할 수 있습니다—전형적인 데드락입니다.
+> 사실 이 부분도 엄밀히 본다면 `gpio_set_value()` 함수는 여기서 쓰이는 게 아니라 워크큐에서 써하지만, 인터럽태 핸들러를 자세히 보는 게 목적은 아니니까 이 부분도 넘어가겠습니다.
+
+이 부분만 보면 크게 어려울 건 없습니다. 대신 이렇게 인터럽트 처리를 해야하는 순간 인터럽트 핸들러 보다는 `led_write()`의 `spin_lock()`이 `spin_lock_irqsave()` 으로 바뀐다는 점이 중요합니다. 그 이유는 다음과 같습니다. 
+  
+  인터럽트 처리는 CPU가 여러 가지를 동시에 처리합니다. 네트워크 요청이 도착했을 시, 키보드나 마우스를 움직일 때, 다른 task로의 스위칭을 하기 위한 타이머 인터럽트 등등 여러 가지를 말이죠. 하지만 만약 `led_write()`이 `spin_lock()`으로 lock을 잡고 있을 때 인터럽트 핸들러 파트에서 `led_lock`을 잡으려 한다면 핸들러는 락이 해제되기를 기다립니다. 하지만 앞서 말했듯이 인터럽트 컨텍스트는 다른 핸들러들이 다 공유하며, 특히 타이머 인터럽트가 발생해야 다른 프로세스로 스위칭이 가능합니다. 그런데 지금은 인터럽트 핸들러가 계속 락을 잡으려 하지 종료되지 않기에 스위칭이 불가능하고, 거꾸로 스위칭이 되어야 `led_write()` 함수가 종료됩니다. 이는 전형적인 데드락 상황입니다.
+
+따라서 `led_write()` 함수에서 인터럽트를 비활성화한 뒤 락을 잡도록 `spin_lock_irqsave()`로 바꿔줘야 하며, device driver 코드는 **인터럽트 발생 여부**에 따라 더욱 신중하게 작성되어야 합니다.
 
 ---
 

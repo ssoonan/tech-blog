@@ -121,7 +121,11 @@ static irqreturn_t button_irq_handler(int irq, void *dev_id)
 }
 ```
 
-Notice `spin_lock_irqsave()`. We must disable interrupts while holding the lock. If an interrupt occurs while a process already holds the led_lock, the handler would wait forever for the lock to be released, but the process can't release the lock until the handler finishes—a classic deadlock.
+Notice `spin_lock_irqsave()`. We must disable interrupts while holding the lock. Why is this necessary? Consider the following scenario:
+
+Interrupt handling is managed by the CPU across multiple concurrent events—network packets arriving, keyboard/mouse input, timer interrupts for task switching, and more. If `led_write()` holds the lock using a regular `spin_lock()` when the button interrupt fires, the interrupt handler will wait for the lock to be released. However, as mentioned earlier, all interrupt handlers share the same interrupt context, and particularly, timer interrupts are needed to enable process switching. Since the interrupt handler is now stuck waiting for the lock and cannot complete, process switching becomes impossible. Conversely, the process holding the lock in `led_write()` cannot complete and release the lock without being able to switch back—this is a classic deadlock.
+
+Therefore, `led_write()` must use `spin_lock_irqsave()` to disable interrupts before acquiring the lock, and device driver code must be written even more carefully when **interrupts are involved**.
 
 ---
 
