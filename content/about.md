@@ -14,8 +14,8 @@ Currently, I am working on two projects, extending Kubernetes to support real-ti
 
 If you want to contact me, you can reach me via one of the following communication channels:
 
-- Email: ssoonan0770@gmail.com
-- GitHub: https://github.com/ssoonan
-- Threads: https://www.threads.com/@ssoonan_
-- LinkedIn: https://www.linkedin.com/in/ssoonan
-- YouTube: https://www.youtube.com/@ssoonan213
+- Email: <ssoonan0770@gmail.com>
+- GitHub: <https://github.com/ssoonan>
+- Threads: <https://www.threads.com/@ssoonan_>
+- LinkedIn: <https://www.linkedin.com/in/ssoonan>
+- YouTube: <https://www.youtube.com/@ssoonan213>

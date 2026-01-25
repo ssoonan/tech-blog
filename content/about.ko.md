@@ -14,8 +14,8 @@ author = "Ssoonan"
 
 연락을 원하시면 다음 채널을 통해 연락하실 수 있습니다:
 
-- Email: ssoonan0770@gmail.com
-- GitHub: https://github.com/ssoonan
-- Threads: https://www.threads.com/@ssoonan_
-- LinkedIn: https://www.linkedin.com/in/ssoonan
-- YouTube: https://www.youtube.com/@ssoonan213
+- Email: <ssoonan0770@gmail.com>
+- GitHub: <https://github.com/ssoonan>
+- Threads: <https://www.threads.com/@ssoonan_>
+- LinkedIn: <https://www.linkedin.com/in/ssoonan>
+- YouTube: <https://www.youtube.com/@ssoonan213>
