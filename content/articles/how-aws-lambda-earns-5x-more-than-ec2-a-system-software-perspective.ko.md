@@ -2,8 +2,8 @@
 title = "AWS Lambda는 어떻게 EC2보다 5배 더 잘 벌까?" 
 date = "2026-02-08"
 author = "Ssoonan"
-description = "" 
-tags = ["AWS", "Lambda", "EC2", "System Software"] 
+description = "Why Lambda is cheap for users but far more profitable for AWS—explained through virtualization, utilization, and Firecracker."
+tags = ["AWS", "Lambda", "EC2", "System Software", "Firecracker", "Virtualization"]
 categories = ["Technical"]
 +++
 
