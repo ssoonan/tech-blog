@@ -10617,7 +10617,7 @@ figure {
 
 .container {
   margin: 1rem auto;
-  max-width: 90rem;
+  max-width: 80rem;
   width: 100%;
   padding-left: 2rem;
   padding-right: 2rem; }
@@ -10751,6 +10751,8 @@ figure {
   display: flex;
   align-items: center;
   justify-content: center; }
+  .centered article {
+    margin-top: -3rem; }
   .centered .about {
     text-align: center; }
     .centered .about h1 {
