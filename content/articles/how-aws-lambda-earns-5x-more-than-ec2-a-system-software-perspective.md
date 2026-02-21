@@ -86,4 +86,4 @@ AWS Lambda's success is the result of answering a business question—*"how do w
 
 Users get operational simplicity. The cloud provider gets extreme resource efficiency and higher margins. And behind this seemingly magical arrangement lies the craft of pushing Linux kernel and virtualization technology to their absolute limits.
 
-Which raises another question: how exactly is Firecracker designed internally to be this fast? In the next post, I'll dig into the architecture of this VMM written in Rust, and compare it with the virtualization approaches used by Google, Cloudflare, and others.
+Which raises another question. In this post, I assumed "1 vCPU = 1 physical core" for simplicity—but is a VM really the same as a physical server? Is a vCPU truly yours? And what actually goes wrong when providers overprovision? In the [next post](/articles/is-a-vm-really-a-server/), I dig deeper into that structure.

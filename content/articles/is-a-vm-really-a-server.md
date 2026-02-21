@@ -34,7 +34,7 @@ This immediately raises the next question. What if the host is busy? What if oth
 
 Suppose a physical server has 64 cores. If the cloud provider places only 32 VMs with 2 vCPUs each, vCPU count matches physical cores exactly. But real-world operations are never that clean.
 
-Most VMs don't use 100% of their CPU all the time. Web servers sit idle when there are no requests. Batch jobs spike only during specific time windows. Cloud providers exploit this statistical behavior to sell more vCPUs than there are physical cores. Allocating 128 or more vCPUs on a 64-core server is not unusual. This is overprovisioning, and as I discussed in a previous post, the more aggressively a provider overprovisions, the more revenue they can extract from the same physical hardware.
+Most VMs don't use 100% of their CPU all the time. Web servers sit idle when there are no requests. Batch jobs spike only during specific time windows. Cloud providers exploit this statistical behavior to sell more vCPUs than there are physical cores. Allocating 128 or more vCPUs on a 64-core server is not unusual. This is overprovisioning, and as I discussed in a [previous post](/articles/how-aws-lambda-earns-5x-more-than-ec2-a-system-software-perspective/), the more aggressively a provider overprovisions, the more revenue they can extract from the same physical hardware.
 
 Under normal conditions, this works fine. But when multiple VMs on the same physical server start consuming CPU heavily at the same time, the host scheduler must rotate limited physical cores across many vCPU threads. That's when the "why is my VM slow?" phenomenon begins.
 
